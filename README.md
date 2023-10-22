@@ -31,6 +31,13 @@ telescope.load_extension("encodings")
 ```
 
 # Useage
+Load `encodings.nvim` as a telescope extension.
+```lua
+local telescope = require("telescope")
+telescope.load_extension("encodings")
+```
+
+Type this in nvim's cmdline.
 ```lua
 Telescope encodings
 ```
